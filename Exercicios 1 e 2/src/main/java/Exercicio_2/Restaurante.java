@@ -35,10 +35,7 @@ public class Restaurante {
     }
 
     public void verPedido(Pedido pedido){
-        System.out.println("Pedido n°: +"+pedido.getNumeroPedido()+
-                            "Pratos: "+pedido.getPratos()+
-                            "Cliente: "+pedido.getCliente()+
-                            "Total: "+pedido.getTotal());
+        System.out.println(pedido.toString());
     }
 
     public void cancelarPedido(Pedido pedido){

@@ -29,10 +29,10 @@ public class Pedido {
 
     @Override
     public String toString(){
-        return "Pedido: "+numeroPedido+
+        return "\nPedido: "+numeroPedido+
                 "\nCliente: "+cliente+
                 "\nPratos: "+pratos+
-                "\nTotal: "+total;
+                "\nTotal: R$"+total;
     }
 
 }

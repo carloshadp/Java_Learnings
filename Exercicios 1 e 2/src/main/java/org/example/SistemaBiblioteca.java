@@ -8,7 +8,7 @@ public class SistemaBiblioteca {
         Biblioteca biblioteca = new Biblioteca();
 
         Livro livro1 = new Livro("Código Limpo", "Robert C. Martin", "12345");
-        Livro livro2 = new Livro("Entendendo Algoritimos", "Autor B", "67890");
+        Livro livro2 = new Livro("Entendendo Algoritimos", "Aditya Y. Bhargava", "67890");
 
         Membro membro1 = new Membro("Membro A", 1, "emailA@fiap.com.br");
         Membro membro2 = new Membro("Membro B", 2, "emailB@fiap.com.br");
