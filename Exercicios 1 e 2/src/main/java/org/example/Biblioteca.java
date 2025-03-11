@@ -48,12 +48,15 @@ public class Biblioteca {
 
     public void salvarDadosEmArquivo(String nomeArquivo) throws IOException {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(nomeArquivo))) {
+            writer.write("\n");
             for (Livro livro : livros) {
                 writer.write("Livro:" + livro + "\n");
             }
+            writer.write("\n");
             for (Membro membro : membros) {
                 writer.write("Membro:" + membro + "\n");
             }
+            writer.write("\n");
             for (Emprestimo emprestimo : emprestimos) {
                 writer.write("Emprestimo:" + emprestimo + "\n");
             }
